@@ -14356,9 +14356,7 @@
                     "ipfix.cisco_sdwan_tloc_local_ip": {
                         "path_match": "ipfix.cisco_sdwan_tloc_local_ip",
                         "mapping": {
-                            "type": "text",
-                            "fielddata": true
-
+                            "type": "ip"
                         }
                     }
                 },
@@ -14375,8 +14373,7 @@
                     "ipfix.cisco_sdwan_tloc_remote_ip": {
                         "path_match": "ipfix.cisco_sdwan_tloc_remote_ip",
                         "mapping": {
-                            "type": "text",
-                            "fielddata": true
+                            "type": "ip"
                         }
                     }
                 },
@@ -29150,8 +29147,7 @@
                     "netflow.cisco_sdwan_tloc_local_ip": {
                         "path_match": "netflow.cisco_sdwan_tloc_local_ip",
                         "mapping": {
-                            "type": "text",
-                            "fielddata": true
+                            "type": "ip"
                         }
                     }
                 },
@@ -29168,8 +29164,7 @@
                     "netflow.cisco_sdwan_tloc_remote_ip": {
                         "path_match": "netflow.cisco_sdwan_tloc_remote_ip",
                         "mapping": {
-                            "type": "text",
-                            "fielddata": true
+                            "type": "ip"
                         }
                     }
                 },
